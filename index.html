@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Market</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Stock Market Dashboard</h1>
+  <div class="search">
+    <input type="text" id="symbol" placeholder="Symbol">
+    <select id="time-series">
+      <option value="none" selected hidden>Time Series</option>
+      <option value="TIME_SERIES_INTRADAY">Intraday</option>
+      <option value="TIME_SERIES_DAILY_ADJUSTED">Daily</option>
+      <option value="TIME_SERIES_WEEKLY">Weekly</option>
+      <option value="TIME_SERIES_MONTHLY">Monthly</option>
+    </select>
+    <button id="submit"><i class="fa fa-search"></i></button>
+  </div>
+  <h2>Wishlist</h2>
+  <!-- js -->
+  <script src="App.js"></script>
+</body>
+</html>
