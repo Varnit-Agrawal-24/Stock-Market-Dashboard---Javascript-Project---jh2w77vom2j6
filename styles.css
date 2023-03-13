@@ -4,3 +4,18 @@
     box-sizing: border-box;
   }
   
+td{
+  padding: 10px;
+}
+.stock-data{
+  display: none;
+}
+.show{
+  display: block;
+}
+.profit{
+  background-color: green;
+}
+.loss{
+  background-color: red;
+}
